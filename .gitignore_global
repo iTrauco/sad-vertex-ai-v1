@@ -1,0 +1,154 @@
+
+  
+###############################
+# iTrauco's .gitignore_global #
+###############################
+
+#########
+# ABOUT #
+#########
+# Ubuntu 20.04.xx .gitignore_global downloaded for new macOS Catalina 10.15.x specific dev system branch
+
+#################
+# macOS 10.15.x #
+#################
+# Tested on macOS Catalina 10.15.x
+
+#########
+# USAGE #
+#########
+# 1. Place a copy if this at ~/.gitignore_global
+# 2. Open terminal and run `git config --global core.excludesfile ~/.gitignore_global`
+
+############
+# COMPILED #
+############
+*.com
+*.class
+*.dll
+*.so
+*.pyc
+*.pyo
+
+############
+# PACKAGES #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.msi
+*.war
+*.ear
+
+######
+# vi #
+######
+*~
+
+########
+# LOGS #
+########
+*.log
+*.log
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+######
+# DB #
+######
+*.sql
+*.sqlite
+
+########################
+# OPERATING SYSTEM(OS) #
+########################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.Thumbs.db
+
+##############
+# TEMP files #
+##############
+*.bak
+*.swp
+*.swo
+*~
+*#
+
+#######
+# IDE #
+#######
+.vscode
+.idea
+.iml
+*.sublime-workspace
+
+###########
+# JS/NODE #
+###########
+node_modules
+npm-debug.log
+
+##########
+# PYTHON #
+##########
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Li]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+venv/
+
+#############
+# TERRAFORM #
+#############
+.terraform
+*.tfstate
+*.tfstate.backup
+
+#######
+# GCP #
+#######
+.gcloudignore
+
+###########################
+# Google Apps Script(GAS) #
+##########################
+.gas/local.json
+.gas/remote.json
+gas-include/*
+
+##########
+# DOCKER #
+##########
+# .dockerignore # need to confirm
+
+#########
+# BUILD #
+#########
+build/
+
+#############
+# ATLASSIAN #
+#############
+atlassian-ide-plugin.xml
+
+
+############
+# DOTFILES #
+############
+.cfg/
