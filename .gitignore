@@ -148,3 +148,8 @@ venv/*
 *venv
 
 # *.csv
+
+
+.secrets/
+*secrets
+.secrets/*
